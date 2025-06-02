@@ -13,10 +13,16 @@
         android:theme="@style/Theme.LeonardoApp"
         tools:targetApi="31">
         <activity
+            android:name=".leonardoactivity"
+            android:exported="false" />
+        <activity
+            android:name=".leonardoActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".leonardoactivity"
+            android:name=".Kakulatorleonardo"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.LeonardoApp">
